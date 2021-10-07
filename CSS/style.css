@@ -56,8 +56,6 @@ header li a{
     font-size: small;
 }
 
-
-
 .color-dropbox{
     color: rgb(0, 96, 255);
     font-size: 20px;
@@ -74,16 +72,49 @@ header li a{
     padding: 5px 20px;
 }
 
+/* jumbo */
+
+.jumbotron{
+    height: 800px;
+    background-color: #b4d0e7;
+    padding-top: 150px;
+    position: relative;
+}
+
+.jumbo-cont{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 85px;
+}
+
+.jumbo-txt{
+    width: 35%;
+}
+
+.jumbo-img{
+    width: 65%;
+}
+
+/* .jumbotron img{
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
 /* debug */
 
 /* .debug header{
     background-color: aqua;
 } */
 
-.debug .jumbotron{
+/* .debug .jumbotron{
     height: 800px;
     background-color: cornflowerblue;
-}
+} */
 
 .debug .main-container{
     height: 1000px;
