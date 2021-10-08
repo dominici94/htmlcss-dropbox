@@ -47,6 +47,7 @@ header{
     background-color: white;
     position: fixed;
     z-index: 1;
+    border-bottom: 1px solid lightgrey;
 }
 
 header li{
@@ -213,6 +214,31 @@ h1{
     margin-top: 50px;
 }
 
+.partner-container{
+    margin: 100px 0;
+}
+.partner-container img.left{
+    width: 50%;
+    margin: 0;
+}
+
+.text-partner{
+    width: 45%;
+    padding-top: 30px;
+}
+
+.text-partner p{
+    font-size: 14px;
+    margin: 20px 0;
+    
+}
+
+.text-partner a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    border: 1px solid black;
+}
 
 /* debug */
 
