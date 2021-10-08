@@ -263,6 +263,22 @@ h1{
 section .row{
     margin: 50px 0;
 }
+
+.info{
+    width: 50%;
+}
+
+.info h2{
+    font-size: 32px;
+    margin-top: 150px;
+}
+
+.info a{
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 40px 0;
+    display: block;
+}
 /* debug */
 
 /* .debug header{
