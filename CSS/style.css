@@ -124,9 +124,14 @@ h1{
 }
 
 .titolo-main{
-    padding-top: 200px;
+    padding-top: 100px;
     font-size: 40px;
     font-weight: bold;
+}
+
+.fatturazione{
+    display: inline;
+    margin-right: 20px;
 }
 
 .fake-button{
@@ -144,6 +149,19 @@ h1{
     border: 1px solid gray;
 }
 
+.col{
+    height: 500px;
+    width: calc((100% - 40px) / 3);
+    background-color: blue;
+    border: 1px solid black;
+
+}
+
+.col-middle{
+    margin: 0 20px;
+}
+
+
 
 
 /* debug */
@@ -159,7 +177,7 @@ h1{
 
 .debug .main-container{
     height: 1000px;
-    background-color: chartreuse;
+    background-color: tomato;
 }
 
 /* .debug .container{
