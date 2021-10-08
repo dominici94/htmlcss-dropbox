@@ -260,7 +260,7 @@ h1{
     padding-top: 20px;
 }
 
-section .row{
+.main-container section .row{
     margin: 50px 0;
 }
 
@@ -284,9 +284,50 @@ section .row{
     height: 14vw;
     width: 14vW;
     background-color: red;
-    border: 1px solid green;
+    position: relative;
 }
 
+.logo-container img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
+}
+
+#designit{
+    background-color: rgb(162, 211, 155);
+    border: 8px solid rgb(208, 233, 205);
+}
+
+#arizona{
+    background-color: rgb(97, 8, 43);
+}
+
+#florida{
+    background-color: rgb(0, 147, 206);
+}
+
+#topps{
+    background-color: rgb(255, 28, 28);
+}
+
+#hearst{
+    background-color: rgb(180, 208, 231);
+}
+
+#wbr{
+    background-color: rgb(213, 0, 31);
+}
+
+#cchannel{
+    background-color: rgb(255, 216, 48);
+}
+
+#lonely{
+    background-color: rgb(13, 36, 129);
+}
 /* debug */
 
 /* .debug header{
