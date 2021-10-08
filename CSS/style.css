@@ -38,6 +38,9 @@ body{
     color: rgb(0, 96, 255)
 }
 
+.underline{
+    text-decoration: underline;
+}
 /* header */
 
 header{
@@ -240,6 +243,26 @@ h1{
     border: 1px solid black;
 }
 
+.col-bsnss{
+    width: calc((100% - 40px) / 3);
+}
+
+.col-mid-bsnss{
+    margin: 0 20px;
+
+}
+
+.col-bsnss img{
+    width: 100%;
+}
+
+.col-bsnss p{
+    padding-top: 20px;
+}
+
+section .row{
+    margin: 50px 0;
+}
 /* debug */
 
 /* .debug header{
