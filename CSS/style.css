@@ -150,10 +150,9 @@ h1{
 }
 
 .col{
-    height: 500px;
+    height: 800px;
     width: calc((100% - 40px) / 3);
-    background-color: blue;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 
 }
 
@@ -161,7 +160,15 @@ h1{
     margin: 0 20px;
 }
 
+.top-col{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+}
 
+.main-col{
+    padding: 25px;
+}
 
 
 /* debug */
@@ -175,10 +182,10 @@ h1{
     background-color: cornflowerblue;
 } */
 
-.debug .main-container{
+/* .debug .main-container{
     height: 1000px;
     background-color: tomato;
-}
+} */
 
 /* .debug .container{
     height: 400px;
