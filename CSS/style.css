@@ -34,6 +34,10 @@ body{
     float: right;
 }
 
+.color-blu{
+    color: rgb(0, 96, 255)
+}
+
 /* header */
 
 header{
@@ -149,8 +153,10 @@ h1{
     border: 1px solid gray;
 }
 
+/* sezione 3 colonne */
+
 .col{
-    height: 800px;
+    height: 1300px;
     width: calc((100% - 40px) / 3);
     border: 1px solid lightgrey;
 
@@ -168,6 +174,38 @@ h1{
 
 .main-col{
     padding: 25px;
+}
+
+.main-col *{
+    margin: 5px 0;
+}
+
+.main-col > div{
+    padding: 40px 0;
+}
+
+
+.piano h6{
+    color: grey;
+}
+
+
+.main-col ul{
+    list-style: none;
+}
+
+.main-col ul li:before{
+    content: '\2714';
+    color: rgb(0, 96, 255);
+}
+
+.main-col ul li{
+    padding: 10px 0;
+}
+
+.btm-brdr-grey{
+    padding: 40px 0;
+    border-bottom: 2px solid lightgrey;
 }
 
 
