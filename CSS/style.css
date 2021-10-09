@@ -352,12 +352,20 @@ h1{
 
 .btm-loghi{
     background-color: rgb(180, 208, 231);
-    padding: 50px;
+    padding: 100px 180px;
 }
 
-.btm-loghi div{
-    width: 40%;
-    padding: 20px;
+.btm-loghi div.left{
+    width: 45%;
+}
+
+.btm-loghi h2{
+    font-size: 33px;
+    color: rgb(97, 8, 43);
+}
+
+.btm-loghi div.right{
+    width: 30%;
 }
 
 .btm-loghi a{
