@@ -375,6 +375,20 @@ h1{
     padding: 5px 20px;
 }
 
+
+.faq{
+    margin: 100px auto;
+}
+
+.faq .row{
+    border-bottom: 1px solid lightgrey;
+    line-height: 70px;
+}
+
+.faq .row span{
+    padding-right: 25px;
+}
+
 /* debug */
 
 /* .debug header{
