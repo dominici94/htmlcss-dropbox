@@ -430,9 +430,13 @@ footer{
     width: 15%;
     height: 75px;
     line-height: 75px;
-    color: grey;
     border-top: 1px solid grey;
     font-size: 10px;
+}
+
+.language a{
+    color: grey;
+    text-decoration: none;
 }
 
 /* debug */
