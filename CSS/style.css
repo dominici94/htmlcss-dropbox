@@ -282,7 +282,7 @@ h1{
 
 .logo-container{
     height: 14vw;
-    width: 14vW;
+    width: 14vw;
     background-color: red;
     position: relative;
 }
@@ -297,10 +297,11 @@ h1{
 }
 
 .mid-section{
-    width: 42.69vw;
+    width: calc(100% - 56vw);
     height: 28vw;
     padding: 30px;
     background-color: rgb(245, 245, 245);
+    overflow: auto;
 }
 
 .mid-section hr{
